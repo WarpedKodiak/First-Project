@@ -1,0 +1,39 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6, span {
+    color: #242424;
+    text-align: center;
+    line-height: 1.25;
+}
+
+p {
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+/*Navigation Bar */
+
+nav {
+  height: 100px;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
